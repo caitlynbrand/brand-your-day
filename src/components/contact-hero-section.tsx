@@ -1,0 +1,107 @@
+import { TextEffect } from '@/components/ui/text-effect'
+import { AnimatedGroup } from '@/components/ui/animated-group'
+import type { Variants } from 'framer-motion'
+
+const variants: {
+  container: Variants
+  item: Variants
+} = {
+  container: {
+    hidden: {},
+    visible: {
+      transition: {
+        staggerChildren: 0.05,
+        delayChildren: 0.75,
+      },
+    },
+  },
+  item: {
+    hidden: {
+      opacity: 0,
+      filter: 'blur(12px)',
+      y: 12,
+    },
+    visible: {
+      opacity: 1,
+      filter: 'blur(0px)',
+      y: 0,
+      transition: {
+        type: 'spring',
+        bounce: 0.3,
+        duration: 1.5,
+      },
+    },
+  },
+}
+
+export default function HeroSection() {
+  return (
+    <>
+      {/* <HeroHeader /> */}
+
+      <main className="overflow-hidden sm:-mt-20 md:-mt-30">
+        {/* Background blobs */}
+        <div
+          aria-hidden
+          className="absolute inset-0 isolate hidden opacity-65 contain-strict lg:block"
+        >
+          <div className="w-140 h-320 -translate-y-87.5 absolute left-0 top-0 -rotate-45 rounded-full bg-[radial-gradient(68.54%_68.72%_at_55.02%_31.46%,hsla(0,0%,85%,.08)_0,hsla(0,0%,55%,.02)_50%,hsla(0,0%,45%,0)_80%)]" />
+          <div className="h-320 absolute left-0 top-0 w-60 -rotate-45 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,hsla(0,0%,85%,.06)_0,hsla(0,0%,45%,.02)_80%,transparent_100%)] [translate:5%_-50%]" />
+          <div className="h-320 -translate-y-87.5 absolute left-0 top-0 w-60 -rotate-45 bg-[radial-gradient(50%_50%_at_50%_50%,hsla(0,0%,85%,.04)_0,hsla(0,0%,45%,.02)_80%,transparent_100%)]" />
+        </div>
+
+        <section>
+          <div className="relative pt-24 md:pt-36">
+
+            {/* Background image */}
+            <AnimatedGroup
+              variants={variants}
+            //   initial="hidden"
+            //   animate="visible"
+              className="mask-b-from-35% mask-b-to-90% absolute inset-0 top-56 -z-20 lg:top-32"
+            >
+              <img
+                src="https://ik.imagekit.io/lrigu76hy/tailark/night-background.jpg"
+                alt="background"
+                className="hidden size-full dark:block"
+              />
+            </AnimatedGroup>
+
+            {/* Gradient overlay */}
+            <div
+              aria-hidden
+              className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"
+            />
+
+            <div className="mx-auto max-w-7xl px-6">
+              <div className="text-center">
+                <TextEffect
+                  as="h1"
+                  className="mx-auto mt-8 max-w-4xl text-balance text-5xl md:text-7xl"
+                >
+                  Bulding The Brightest Day For You
+                </TextEffect>
+
+                <p className="mx-auto mt-8 max-w-2xl text-balance text-xl">
+                  Brand Your Day removes the stress of planning so you can be fully present and truly enjoy your event.
+                </p>
+
+                <p className="mx-auto mt-8 max-w-2xl font-normal text-balance text-md">
+                  From intimate gatherings to large-scale celebrations, we provide thoughtful support tailored to your needs. Whether you want to be involved in every detail or prefer us to confidently guide the decisions, we meet you where you are.
+                </p>
+
+                <p className="mx-auto mt-8 max-w-2xl text-balance text-md">
+                  Known for our calm presence and meticulous eye for detail, we work closely with each client to bring their vision to life seamlessly and beautifully.
+                </p>
+
+                <p className="mx-auto mt-8 max-w-2xl text-balance text-md">
+                  You focus on the memories. We’ll take care of everything else.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </>
+  )
+}
