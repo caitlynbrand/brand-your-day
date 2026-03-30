@@ -415,13 +415,18 @@ const Route$6 = createRootRoute({
         content: "width=device-width, initial-scale=1"
       },
       {
-        title: "TanStack Start Starter"
+        title: "Brand Your Day"
       }
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss
+      },
+      {
+        rel: "icon",
+        href: "/logo.png",
+        type: "image/png"
       }
     ]
   }),
@@ -438,27 +443,27 @@ function RootDocument({ children }) {
     ] }) })
   ] });
 }
-const $$splitComponentImporter$5 = () => import("./testimonials-CUfMF7Of.mjs");
+const $$splitComponentImporter$5 = () => import("./testimonials-DUNTbT6L.mjs");
 const Route$5 = createFileRoute("/testimonials")({
   component: lazyRouteComponent($$splitComponentImporter$5, "component")
 });
-const $$splitComponentImporter$4 = () => import("./services-CEWOg8OO.mjs");
+const $$splitComponentImporter$4 = () => import("./services-BVeB-wh-.mjs");
 const Route$4 = createFileRoute("/services")({
   component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-const $$splitComponentImporter$3 = () => import("./events-Bd5RyUhS.mjs");
+const $$splitComponentImporter$3 = () => import("./events-uwxMEFdV.mjs");
 const Route$3 = createFileRoute("/events")({
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-const $$splitComponentImporter$2 = () => import("./contact-1btQqE1z.mjs");
+const $$splitComponentImporter$2 = () => import("./contact-BS97cLou.mjs");
 const Route$2 = createFileRoute("/contact")({
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./about-CdUyYJVG.mjs");
+const $$splitComponentImporter$1 = () => import("./about-DcS8fYFJ.mjs");
 const Route$1 = createFileRoute("/about")({
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./index-CqeQRUXF.mjs");
+const $$splitComponentImporter = () => import("./index-eFmn2RZ-.mjs");
 const Route = createFileRoute("/")({
   component: lazyRouteComponent($$splitComponentImporter, "component")
 });
