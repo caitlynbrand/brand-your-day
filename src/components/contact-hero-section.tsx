@@ -79,7 +79,7 @@ export default function HeroSection() {
                   as="h1"
                   className="mx-auto mt-8 max-w-4xl text-balance text-5xl md:text-7xl"
                 >
-                  Bulding The Brightest Day For You
+                  Building The Brightest Day For You
                 </TextEffect>
 
                 <p className="mx-auto mt-8 max-w-2xl text-balance text-xl">

@@ -59,7 +59,7 @@ export default function HeroSection() {
           <div className="relative pt-24 md:pt-36">
 
             {/* Background image */}
-            <AnimatedGroup
+            {/* <AnimatedGroup
               variants={variants}
             //   initial="hidden"
             //   animate="visible"
@@ -70,7 +70,7 @@ export default function HeroSection() {
                 alt="background"
                 className="hidden size-full dark:block"
               />
-            </AnimatedGroup>
+            </AnimatedGroup> */}
 
             {/* Gradient overlay */}
             <div
