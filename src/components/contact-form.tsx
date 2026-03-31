@@ -226,9 +226,9 @@ export function ContactForm() {
               <Button type="submit" disabled={isSubmitting}>
                 {isSubmitting ? "Submitting..." : "Submit"}
               </Button>
-              <Button variant="outline" type="button">
+              {/* <Button variant="outline" type="button">
                 Cancel
-              </Button>
+              </Button> */}
             </Field>
 
             {/* Status Message */}
