@@ -33,7 +33,7 @@ const Navbar = ({ navigationData }: { navigationData: NavigationItem }) => {
   }
 
   return (
-    <header className="bg-accent-foreground sticky top-0 z-50">
+    <header className="bg-accent-foreground sticky top-0 z-50 overflow-hidden">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-8 px-2 sm:px-2">
         <a href="/" className="md:hidden flex">
           <LogoIcon />
