@@ -38,7 +38,7 @@ export default function FooterSection() {
                         aria-label="go home"
                         className="block size-fit">
                             <div className='shrink-0 aspect-square>'>
-                                <Logo className='h-20 w-20 md:h-32 md:w-32' />
+                                <Logo className='h-32 w-32' />
                             </div>
                     </Link>
                 </div>
