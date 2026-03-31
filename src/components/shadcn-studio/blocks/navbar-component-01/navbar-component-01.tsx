@@ -39,8 +39,7 @@ const Navbar = ({ navigationData }: { navigationData: NavigationItem }) => {
           <LogoIcon />
         </a>
 
-        <div className="text-primary sm:hidden md:flex flex-1 items-center justify-center gap-8 font-medium lg:gap-16">
-          {navigationData.map((item, index) => {
+          <div className="hidden md:flex text-primary flex-1 items-center justify-center gap-8 font-medium lg:gap-16">          {navigationData.map((item, index) => {
             return (
               <div key={index} className="flex items-center">
                 
