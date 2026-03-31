@@ -25,6 +25,10 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
+        name: 'desciption',
+        content: 'Brand Your Day plans and coordinates seamless events so you can be fully present. Thoughtful details, stress-free execution, and moments that truly feel like you.'
+      },
+      {
         title: 'Brand Your Day',
       },
     ],

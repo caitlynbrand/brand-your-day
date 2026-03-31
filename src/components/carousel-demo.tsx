@@ -16,18 +16,18 @@ import image5 from "@/assets/images/IMG_0064.jpg"
 import image6 from "@/assets/images/IMG_0067.jpg"
 import image7 from "@/assets/images/IMG_5046.jpg"
 import image8 from "@/assets/images/IMG_5048.jpg"
-import image9 from "@/assets/images/IMG_0057.jpg"
+// import image9 from "@/assets/images/IMG_0057.jpg"
 
 export function CarouselDemo() {
   const nextRef = useRef<HTMLButtonElement>(null)
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const images = [
-    image1, image2, image3, image4, image5, image6, image7, image8, image9,
-    image1, image2, image3, image4, image5, image6, image7, image8, image9,
-    image1, image2, image3, image4, image5, image6, image7, image8, image9,
-    image1, image2, image3, image4, image5, image6, image7, image8, image9,
-    image1, image2, image3, image4, image5, image6, image7, image8, image9
+    image1, image2, image3, image4, image5, image6, image7, image8,
+    image1, image2, image3, image4, image5, image6, image7, image8,
+    image1, image2, image3, image4, image5, image6, image7, image8,
+    image1, image2, image3, image4, image5, image6, image7, image8,
+    image1, image2, image3, image4, image5, image6, image7, image8
   ]
 
   useEffect(() => {
