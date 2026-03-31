@@ -90,7 +90,7 @@ const __iconNode = [
   ["path", { d: "M4 19h16", key: "1djgab" }]
 ];
 const Menu = createLucideIcon("menu", __iconNode);
-const appCss = "/assets/styles-GolIFSkz.css";
+const appCss = "/assets/styles-CkM1090k.css";
 const initialState = {
   theme: "system",
   setTheme: () => null
@@ -443,27 +443,27 @@ function RootDocument({ children }) {
     ] }) })
   ] });
 }
-const $$splitComponentImporter$5 = () => import("./testimonials-DUNTbT6L.mjs");
+const $$splitComponentImporter$5 = () => import("./testimonials-PZCHAstZ.mjs");
 const Route$5 = createFileRoute("/testimonials")({
   component: lazyRouteComponent($$splitComponentImporter$5, "component")
 });
-const $$splitComponentImporter$4 = () => import("./services-BVeB-wh-.mjs");
+const $$splitComponentImporter$4 = () => import("./services-hcocSRaV.mjs");
 const Route$4 = createFileRoute("/services")({
   component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-const $$splitComponentImporter$3 = () => import("./events-uwxMEFdV.mjs");
+const $$splitComponentImporter$3 = () => import("./events-ujxG_7or.mjs");
 const Route$3 = createFileRoute("/events")({
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-const $$splitComponentImporter$2 = () => import("./contact-BS97cLou.mjs");
+const $$splitComponentImporter$2 = () => import("./contact-DYkK_hBo.mjs");
 const Route$2 = createFileRoute("/contact")({
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./about-DcS8fYFJ.mjs");
+const $$splitComponentImporter$1 = () => import("./about-C9vtxOoi.mjs");
 const Route$1 = createFileRoute("/about")({
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./index-eFmn2RZ-.mjs");
+const $$splitComponentImporter = () => import("./index-DRedI7es.mjs");
 const Route = createFileRoute("/")({
   component: lazyRouteComponent($$splitComponentImporter, "component")
 });

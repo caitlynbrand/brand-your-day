@@ -1,7 +1,6 @@
-import { jsxs, Fragment, jsx } from "react/jsx-runtime";
-import { A as AnimatedGroup, T as TextEffect } from "./animated-group-CHw4qjhg.mjs";
-import { C as ContactForm } from "./contact-form-Cb8H9Utj.mjs";
-import "./router-DyXVSU70.mjs";
+import { jsx, Fragment, jsxs } from "react/jsx-runtime";
+import { A as AnimatedGroup, T as TextEffect } from "./animated-group-D6sDd8Eq.mjs";
+import "./router-DaUv6NbV.mjs";
 import "@tanstack/react-router";
 import "react";
 import "clsx";
@@ -10,14 +9,7 @@ import "@base-ui/react/button";
 import "class-variance-authority";
 import "@base-ui/react/menu";
 import "motion/react";
-import "@base-ui/react";
-import "@base-ui/react/input";
-import "@hugeicons/react";
-import "@hugeicons/core-free-icons";
-import "./card-DQFxh3Qm.mjs";
-import "./server.mjs";
-import "node:async_hooks";
-import "@tanstack/react-router/ssr/server";
+const image = "/assets/IMG_5050-ufjM3enl.jpg";
 const variants = {
   container: {
     hidden: {},
@@ -89,22 +81,28 @@ function HeroSection() {
           {
             as: "h1",
             className: "mx-auto mt-8 max-w-4xl text-balance text-5xl md:text-7xl",
-            children: "Bulding The Brightest Day For You"
+            children: "Testimonials"
           }
         ),
-        /* @__PURE__ */ jsx("p", { className: "mx-auto mt-8 max-w-2xl text-balance text-xl", children: "Brand Your Day removes the stress of planning so you can be fully present and truly enjoy your event." }),
-        /* @__PURE__ */ jsx("p", { className: "mx-auto mt-8 max-w-2xl font-normal text-balance text-md", children: "From intimate gatherings to large-scale celebrations, we provide thoughtful support tailored to your needs. Whether you want to be involved in every detail or prefer us to confidently guide the decisions, we meet you where you are." }),
-        /* @__PURE__ */ jsx("p", { className: "mx-auto mt-8 max-w-2xl text-balance text-md", children: "Known for our calm presence and meticulous eye for detail, we work closely with each client to bring their vision to life seamlessly and beautifully." }),
-        /* @__PURE__ */ jsx("p", { className: "mx-auto mt-8 max-w-2xl text-balance text-md", children: "You focus on the memories. We’ll take care of everything else." })
+        /* @__PURE__ */ jsx(
+          "img",
+          {
+            src: image,
+            alt: "Sydney Fellerman and Chris Santos",
+            className: "w-[48rem] h-[32rem] object-contain mx-auto mt-10"
+          }
+        ),
+        /* @__PURE__ */ jsx("p", { className: "mx-auto mt-8 sm:max-w-2xl md:max-w-4xl text-balance text-md", children: "I truly cannot say enough amazing things about our day-of coordinator. From the moment she arrived at our ceremony and reception venue until the very end of the night, she was completely attentive, organized, and on top of every single detail." }),
+        /* @__PURE__ */ jsx("p", { className: "mx-auto mt-8 sm:max-w-2xl md:max-w-4xl font-normal text-balance text-md", children: "She handled everything seamlessly, from organizing my DIY décor for our welcome and gift table, to managing my stationery, to creating the most perfect midnight snack table. Every detail was thoughtfully executed. What impressed me most was how she managed some more difficult guests and family situations with complete professionalism and grace. She protected my peace the entire day." }),
+        /* @__PURE__ */ jsx("p", { className: "mx-auto mt-8 sm:max-w-2xl md:max-w-4xl text-balance text-md", children: "If anything went wrong or if we were behind schedule (like during dinner service), I had absolutely no idea, and that’s because she handled it all. She kept me on track with our timeline without ever making me feel rushed or stressed. I was able to fully enjoy my wedding day without worrying about a single thing, and that is priceless." }),
+        /* @__PURE__ */ jsx("p", { className: "mx-auto mt-8 sm:max-w-2xl md:max-w-4xl text-balance text-md", children: "She went above and beyond in every possible way, and I am beyond grateful for her. I have nothing but the very best things to say and would highly, highly recommend her to any bride-to-be. She is worth her weight in gold!" }),
+        /* @__PURE__ */ jsx("h2", { className: "mx-auto mt-8 sm:max-w-2xl md:max-w-4xl text-balance text-4xl mb-10", children: "Sydney Fellerman and Chris Santos" })
       ] }) })
     ] }) })
   ] }) });
 }
 function RouteComponent() {
-  return /* @__PURE__ */ jsxs(Fragment, { children: [
-    /* @__PURE__ */ jsx(HeroSection, {}),
-    /* @__PURE__ */ jsx(ContactForm, {})
-  ] });
+  return /* @__PURE__ */ jsx("div", { className: "flex flex-col items-center", children: /* @__PURE__ */ jsx(HeroSection, {}) });
 }
 export {
   RouteComponent as component

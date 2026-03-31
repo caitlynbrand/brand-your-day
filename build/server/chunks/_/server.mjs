@@ -3626,7 +3626,7 @@ function getResponse() {
   return event.res;
 }
 async function getStartManifest() {
-  const { tsrStartManifest } = await import("./_tanstack-start-manifest_v-B-8LStzD.mjs");
+  const { tsrStartManifest } = await import("./_tanstack-start-manifest_v-ugRl2Ex8.mjs");
   const startManifest = tsrStartManifest();
   const rootRoute = startManifest.routes[rootRouteId] = startManifest.routes[rootRouteId] || {};
   rootRoute.assets = rootRoute.assets || [];
@@ -4107,7 +4107,7 @@ let cachedRouterEntry = null;
 let cachedManifest = null;
 async function getEntries() {
   if (cachedRouterEntry === null) {
-    cachedRouterEntry = await import("./router-DyXVSU70.mjs").then((n) => n.r);
+    cachedRouterEntry = await import("./router-DaUv6NbV.mjs").then((n) => n.r);
   }
   if (cachedStartEntry === null) {
     cachedStartEntry = await import("./start-HYkvq4Ni.mjs");
