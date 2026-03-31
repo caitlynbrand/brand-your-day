@@ -40,7 +40,7 @@ export default function HeroSection() {
     <>
       {/* <HeroHeader /> */}
 
-      <main className="overflow-hidden mt-20 md:-mt-30">
+      <main className="overflow-hidden -mt-20 md:-mt-30">
         {/* Background blobs */}
         <div
           aria-hidden
