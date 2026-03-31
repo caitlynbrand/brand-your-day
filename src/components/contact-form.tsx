@@ -110,7 +110,7 @@ export function ContactForm() {
   };
 
   return (
-    <Card className="w-full max-w-md mt-25 mb-10 mx-auto">
+    <Card className="relative z-50 w-full max-w-md mt-25 mb-10 mx-auto">
       <CardContent>
         <form onSubmit={handleSubmit}>
           <FieldGroup>
