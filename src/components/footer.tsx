@@ -37,7 +37,9 @@ export default function FooterSection() {
                         to="/"
                         aria-label="go home"
                         className="block size-fit">
-                        <Logo />
+                            <div className='aspect-square>'>
+                                <Logo />
+                            </div>
                     </Link>
                 </div>
 
@@ -105,7 +107,7 @@ export default function FooterSection() {
                             aria-label="Facebook"
                             className="text-primary hover:text-primary block">
                             <svg
-                                className="sm:size-8 md:size-12"
+                                className="size-8 md:size-12"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="1em"
                                 height="1em"
@@ -144,7 +146,7 @@ export default function FooterSection() {
                             aria-label="Instagram"
                             className="text-primary hover:text-primary block">
                             <svg
-                                className="sm:size-8 md:size-12"
+                                className="size-8 md:size-12"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="1em"
                                 height="1em"

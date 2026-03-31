@@ -43,7 +43,7 @@ export function CarouselDemo() {
 
   return (
     <div className="flex justify-center my-10 px-4 w-full">
-      <Carousel className="w-full sm:max-w-lg md:max-w-3xl">
+      <Carousel className="w-full max-w-lg md:max-w-3xl">
         <CarouselContent>
           {images.map((src, index) => (
             <CarouselItem key={index}>
