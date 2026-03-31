@@ -52,7 +52,7 @@ export default function FooterSection() {
                     ))}
                 </div> */}
                 
-                <div className="flex-1 flex flex-col items-center justify-center text-center sm:mt-6 md:mt-0 sm:-mb-2 md:mb-0 gap-1">
+                <div className="flex-1 flex flex-col items-center justify-center text-center mt-6 md:mt-0 sm:-mb-2 md:mb-0 gap-1">
                     <span className="text-primary sm:text-sm md:text-md font-medium mb-3">
                         Location: British Columbia, Canada
                     </span>

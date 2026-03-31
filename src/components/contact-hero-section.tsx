@@ -39,7 +39,7 @@ export default function HeroSection() {
     <>
       {/* <HeroHeader /> */}
 
-      <main className="overflow-hidden sm:-mt-20 md:-mt-30">
+      <main className="overflow-hidden -mt-20 md:-mt-30">
         {/* Background blobs */}
         <div
           aria-hidden
@@ -54,7 +54,7 @@ export default function HeroSection() {
           <div className="relative pt-24 md:pt-36">
 
             {/* Background image */}
-            <AnimatedGroup
+            {/* <AnimatedGroup
               variants={variants}
             //   initial="hidden"
             //   animate="visible"
@@ -65,7 +65,7 @@ export default function HeroSection() {
                 alt="background"
                 className="hidden size-full dark:block"
               />
-            </AnimatedGroup>
+            </AnimatedGroup> */}
 
             {/* Gradient overlay */}
             <div
