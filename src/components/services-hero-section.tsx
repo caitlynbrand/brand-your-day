@@ -105,7 +105,7 @@ export default function HeroSection() {
                 </p>
 
                 <div className="flex justify-center mt-4">
-                    <ul className="space-y-3 text-lg max-w-xl w-full text-left">
+                    <ul className="list-disc pl-5 space-y-3 max-w-xl mx-auto text-left">
                         <li className="flex items-start gap-3">
                             <span className="mt-2 h-2 w-2 rounded-full bg-primary" />
                             Vision development & event design
@@ -166,7 +166,7 @@ export default function HeroSection() {
                 </p>
 
                 <div className="flex justify-center mt-4">
-                    <ul className="space-y-3 text-lg max-w-xl w-full text-left">
+                    <ul className="list-disc pl-5 space-y-3 max-w-xl mx-auto text-left">
                         <li className="flex items-start gap-3">
                             <span className="mt-2 h-2 w-2 rounded-full bg-primary" />
                             We create a structured planning roadmap
@@ -215,7 +215,7 @@ export default function HeroSection() {
                 </p>
 
                 <div className="flex justify-center mt-4">
-                    <ul className="space-y-3 text-lg max-w-xl w-full text-left">
+                    <ul className="list-disc pl-5 space-y-3 max-w-xl mx-auto text-left">
                         <li className="flex items-start gap-3">
                             <span className="mt-2 h-2 w-2 rounded-full bg-primary" />
                             Vendor confirmation & coordination
@@ -274,7 +274,7 @@ export default function HeroSection() {
                 </p>
 
                 <div className="flex justify-center mt-4">
-                    <ul className="space-y-3 text-lg max-w-xl w-full text-left">
+                    <ul className="list-disc pl-5 space-y-3 max-w-xl mx-auto text-left">
                         <li className="flex items-start gap-3">
                             <span className="mt-2 h-2 w-2 rounded-full bg-primary" />
                             Timeline execution
